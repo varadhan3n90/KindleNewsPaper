@@ -17,8 +17,8 @@ import javax.mail.internet.MimeMultipart;
 
 public class Mailer {
 	public void sendMailWithAttachment(String from,String to,String subject,String body,File file) throws IOException {	
-	    final String username = "shivajithebossss@gmail.com";
-	    final String password = "shivajitheboss";	
+	    final String username = "yourmailID@gmail.com";
+	    final String password = "password";	
 	    Properties props = new Properties();
 	    props.put("mail.smtp.auth", true);
 	    props.put("mail.smtp.starttls.enable", true);
